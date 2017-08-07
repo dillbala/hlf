@@ -1,0 +1,324 @@
+body{
+	font-family: Montserrat , sans-serif;
+}
+.navbar{
+	margin-bottom: 0px;
+	min-height: 80px;
+}
+.image-section{
+	width: 100%;
+}
+.image-section img{
+	width: 100%;
+	height: 400px;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom:10px;
+}
+.first-grid{
+	margin-top:-150px;
+}
+.grid-content{
+	grid-column:1;
+	grid-row:1;
+}
+.navbar-nav{
+	margin: 25px 0px;
+}
+.navbar-brand{
+	padding: 0px 15px;
+}
+.logo{
+	height: 100px;
+	width: 200px;
+}
+.footer{
+	min-height: 50px;
+	background: #ddd;
+}
+.footer-content{
+	text-align: center;
+}
+.footer-content ul li{
+	margin-top: 15px;
+}
+
+/*Aboutus*/
+.lefttext{
+  padding: 5px 20px 5px 20px;
+  box-shadow: 0px 0px 12px 9px #EEE;
+  background: #F79647;
+}
+
+.lefttext h4{
+      font-weight: 600;
+      letter-spacing: 1px;
+}
+
+.lefttext p{
+font-weight: 500;
+letter-spacing: 0.1px;
+text-align: justify;
+font-size: 14.5px;
+line-height: 18px;
+
+}
+.mission .heading{
+  font-weight: 700;
+font-size: 1.5em;
+text-transform: uppercase;
+text-align: center;
+background: #aaa;
+height: 1px;
+margin-bottom: 30px;
+}
+span#headtext {
+  background: #fff;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+  top: -14px;
+}
+
+.mission .missioncontent p{
+  letter-spacing: 0.1px;
+    text-align: justify;
+    font-size: 14.5px;
+    line-height: 22px;
+    color: #575757;
+}
+
+.missioncontent {
+    margin-bottom: 80px;
+}
+
+.divide {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 60px;
+    margin: 0px 15px 40px 10px;
+  }
+
+.mission{
+  grid-column: 2/ 5;
+grid-row: 1/3;
+width: 94%;
+  }
+
+.fix {
+    left: 14%;
+    margin-top: 20px;
+}
+.contact h4{
+  font-weight: 600;
+}
+
+.contact {
+    float: right;
+    margin-right: 11px;
+}
+.members{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+
+.memberhead span#membertext{
+  background: #fff;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    top: -13px;
+}
+.memberhead {
+  font-weight: 500;
+font-size: 1.5em;
+text-transform: uppercase;
+text-align: center;
+background: #aaa;
+height: 1px;
+margin-bottom: 30px;
+}
+.members img {
+  height: 120px !important;
+width: 85%;
+margin-bottom: 20px;
+  }
+/*Aboutus*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .mission {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .fix {
+    position: relative;
+    left: 0%;
+  }
+  .contact {
+    float: right;
+    margin-right: 45px;
+  }
+}
+/*mobile css*/
+@media all and (max-width: 600px) {
+.logo{
+	height: 50px;
+	width: 100px;
+}
+.navbar {
+    margin-bottom: 0px;
+    min-height: 53px;
+}
+.navbar ul{
+	width: 100%;
+}
+.navbar ul li{
+	text-align: center;
+}
+.navbar-nav{
+	margin:7.5px 0px;
+}
+.navbar-brand{
+	padding: 0px 15px;
+}
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+.image-section img{
+	width: 100%;
+	height: 200px;
+}
+}
